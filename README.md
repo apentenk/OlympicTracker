@@ -43,9 +43,8 @@ This app provides different functionality for registered and unregistered users 
     <img src="public/readme/dashboard_admin.png"
          alt="screenshot of the dashboard when viewed by registered users">
     <figcaption>Dashboard view for Registered Users</figcaption>
-</figure>  
-\
-\
+</figure>
+<br>
 ## Public Features - CRUD
 
 The only CRUD features available to the public is read functionality. Unregistered users can view all sports and athletes present in the database at once by visiting the /sports and the /athlete pages.
