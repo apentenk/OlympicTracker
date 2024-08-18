@@ -39,12 +39,9 @@ The two models provided are Sports and Athletes and they have a Many-To-Many rel
 ## Authentication
 
 This app provides different functionality for registered and unregistered users simulating admin/public functionality. Any unregistered user trying to access private pages will be redirected to the login. Registered users wil also see a dashboard which has links for all models currently in the database.
-<figure>
-    <img src="public/readme/dashboard_admin.png"
-         alt="screenshot of the dashboard when viewed by registered users">
-    <figcaption>Dashboard view for Registered Users</figcaption>
-</figure>
-<br>
+![screenshot of the dashboard when viewed by registered users](public/readme/dashboard_admin.png)
+*A single track trail outside of Albuquerque, New Mexico.*  
+
 ## Public Features - CRUD
 
 The only CRUD features available to the public is read functionality. Unregistered users can view all sports and athletes present in the database at once by visiting the /sports and the /athlete pages.
