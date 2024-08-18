@@ -43,7 +43,7 @@ This app provides different functionality for registered and unregistered users 
     <img src="public/readme/dashboard_admin.png"
          alt="screenshot of the dashboard when viewed by registered users">
     <figcaption>Dashboard view for Registered Users</figcaption>
-</figure>
+</figure>  
 
 ## Public Features - CRUD
 
@@ -53,14 +53,14 @@ The only CRUD features available to the public is read functionality. Unregister
     <img src="public/readme/sports_index_guest.png"
          alt="screenshot of sports page as viewed by an unregistered user">
     <figcaption>Sports view for Unregistered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_index_guest.png"
          alt="screenshot of athlete page as viewed by an unregistered user">
     <figcaption>Athletes view for Unregistered Users.</figcaption>
-</figure>
+</figure>  
 
 From those pages user can view more details about the item by clicking on the details link or by navigating directly to /sports/{id of sport} or /athletes/{id of athelete}. On these pages users are also able to see which athletes participate in the given sport and which sports the given athlete participates respectively.
 
@@ -68,14 +68,14 @@ From those pages user can view more details about the item by clicking on the de
     <img src="public/readme/sports_show_guest.png"
          alt="screenshot of sport details page as viewed by an unregistered user">
     <figcaption>Sport Details view for Unregistered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_show_guest.png"
          alt="screenshot of athlete details page as viewed by an unregistered user">
     <figcaption>Athlete Details view for Unregistered Users.</figcaption>
-</figure>
+</figure>  
 
 
 ## Admin Features - CRUD
@@ -86,14 +86,14 @@ Like the public, registered users can also view all sports and athletes present 
     <img src="public/readme/sports_index_admin.png"
          alt="screenshot of sports page as viewed by an registered user">
     <figcaption>Sports view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_index_admin.png"
          alt="screenshot of athlete page as viewed by an registered user">
     <figcaption>Athletes view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 Addtionally registered users also have the capability to create new sports and athletes and add them to the database by clicking the add button or navigating directly to /sports/create or /athletes/create. By completing the form the sport or athlete will be added to the database. When adding an athlete users can choose to assign sports to them also updating the relationship in the database.
@@ -102,14 +102,14 @@ Addtionally registered users also have the capability to create new sports and a
     <img src="public/readme/sports_create_admin.png"
          alt="screenshot of sport creation page as viewed by an registered user">
     <figcaption>Create Sport view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_create_admin.png"
          alt="screenshot of athlete creation page as viewed by an registered user">
     <figcaption>Create Athlete view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 Once again like the public registered users can view more details about sports or athletes. Users can delete items by clicking the delete button or by navigating directly to /sports/trash/{id} or /athletes/trash/{id} (which redirects you after completing the delete)
 
@@ -117,14 +117,14 @@ Once again like the public registered users can view more details about sports o
     <img src="public/readme/sports_show_admin.png"
          alt="screenshot of sport details page as viewed by an registered user">
     <figcaption>Sport Details view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_show_admin.png"
          alt="screenshot of athlete details page as viewed by an registered user">
     <figcaption>Athlete Details view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 Unlike the public users can edit and delete the item from this page. Editing can be done by clicking the edit button or navigating directly to /sports/{id}/edit or /athletes/{id}/edit and completing the form. And 
 
@@ -132,14 +132,14 @@ Unlike the public users can edit and delete the item from this page. Editing can
     <img src="public/readme/sports_show_admin.png"
          alt="screenshot of sport edit page as viewed by an registered user">
     <figcaption>Edit Sport view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 <figure>
     <img src="public/readme/athletes_show_admin.png"
          alt="screenshot of athlete details page as viewed by an registered user">
     <figcaption>Edit Sport view for Registered Users.</figcaption>
-</figure>
+</figure>  
 
 
 # Closing thoughts on Laravel
